@@ -1,7 +1,7 @@
 # TESTE TÉCNICO - Desenvolvedor Back end - Sky
 
 ## Desafio Sky
-Esta é uma API RESTFUL exigiida pelo desafio técnico da Sky.
+Esta é uma API RESTFUL exigida pelo desafio técnico da Sky.
 
 Todos os endpoints APENAS aceitam e RECEBEM pelo formato JSON
 
