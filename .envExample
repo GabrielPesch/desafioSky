@@ -1,0 +1,4 @@
+# MONGO_URI='mongodb://mongodb:27017/DesafioSky';
+JWT_SECRET=yourSecret
+PORT=8000
+TZ="America/Sao_Paulo"
