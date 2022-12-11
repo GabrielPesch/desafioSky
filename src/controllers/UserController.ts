@@ -28,7 +28,7 @@ export default class UserController {
     const payload = await this._validator.validateBody(req.body);
 
     if (!payload) {
-      return res.status(304);
+      return res.status(304).json();
     }
 
     const userUpdated = await this._userService.update(id, payload);
@@ -39,6 +39,6 @@ export default class UserController {
   async delete(req: Request, res: Response) {
     const { email } = req.headers.user as unknown as { email: string };
     await this._userService.delete(email);
-    res.status(204);
+    return res.status(204).json();
   }
 }
