@@ -94,7 +94,7 @@ As mensagems de erro sempre retornam um objeto no seguinte formato
 <p>Execute os testes unitários com</p>
 
    ```bash
-  npm run 
+  npm run test
 ```
 Inicie a aplicação node
     
